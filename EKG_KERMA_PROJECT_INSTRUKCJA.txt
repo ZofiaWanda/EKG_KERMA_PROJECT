@@ -1,0 +1,21 @@
+Tytuł: EKG_KERMA_PROJECT_APP
+Autorka: Zofia Bryłowska
+Opis:
+Jest to aplikacja stworzona w celu obsługi przenośnego modelu EKG będącego własnością SKNFM KERMA i każdego innego modelu zbudowanego na bazie tego projektu.
+Sposób użycia:
+
+1. Upewnij się, że urządzenie EKG jest podłączone do jednego z portów COM, twojego komputera. To umożliwi aplikacji pobieranie z niego danych.  Aplikacja jest podzielona na dwie sekcje: sekcja I – „Obsługa bieżącego pomiaru” i sekcja II -„Obsługa biblioteki (pomiarów)”. 
+
+2. Otwórz aplikację. W pojawiającym się okienku dialogowym wybierz odpowiedni port COM, oraz wybierz z listy lub wpisz napięcie używane przez Arduino wykorzystane w Twoim modelu EKG. Następnie kliknij przycisk Rozpocznij w popupowym okienku, a potem przycisk „Rozpocznij pomiar” w sekcji I. Jeśli nie widzisz wykresu włąsciwego EKG oznacza to że wybrałeś zły port (w zależności od rodzaju Arduino i komputera to mogą być np. porty COM3, COM4 albo COM9)! W celu zakończenia pomiaru kliknij przycisk „Zakończ pomiar” w tej samej sekcji. 
+
+3. W czasie przeprowadzenia pomiaru wyświetlony zostanie wykres obrazujący odczytany z urządzenia sygnał EKG. Do jego przybliżenia lub oddalenia użyj przycisków odpowiednio „Oddal wykres” i „Przybliż wykres” (w sekcji I).
+
+4. Przejdźmy teraz do sekcji II i do zapisu pomiaru. Po kliknięciu „Rozpocznij pomiar” w sekcji I, kiedy zechcesz rozpocząć zapis pomiaru kliknij przycisk w sekcji II „Rozpocznij rejestracje pomiaru”, a kiedy postanowisz zakończyć pomiar kliknij „Zakończ rejestracją pomiaru”. Następnie w polu na „Dane pacjenta” wpisz nazwę pomiaru i kliknij przycisk „Zapisz pomiar” w celu jego zapisania.
+
+5. Jeśli będziesz chciał załadować zapisany pomiar, wpisz jego nazwę w pole tekstowe „Dane pacjenta” i naciśnij przycisk „Załaduj pomiar”.
+
+6. Teraz na wykresie wyświetlony zostanie zapisany pomiar, możesz go przybliżać i oddalać przyciskami „Przybliż wykres” i „Oddal wykres” (po uprzednim jego przybliżeniu). 
+
+7. W celu powrotu do „pomiaru rzeczywistego” - dane pobierane na bieżąco z urządzenia EKG należy kliknąć specjalny przycisk, który pojawi się (w sekcji I) dopiero po kliknięciu przycisku „Zobacz pomiar” – „Powrót do pomiaru w czasie rzeczywistym”.
+
+Uwaga ogólna: wszystkie pliki utworzone w czasie używania aplikacji zapiszą się w aktualnym folderze roboczym MATLAB'a.
