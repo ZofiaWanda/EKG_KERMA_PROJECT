@@ -56,7 +56,4 @@ Szacunkowy koszt izolatora USB: ok. 60 zł.
 
 Uwaga!!!
 Autorka projektu nie ponosi odpowiedzialności za jakiekolwiek szkody, urazy, straty zdrowotne lub materialne wynikające z użycia, modyfikacji lub niewłaściwego zastosowania przedstawionego systemu. Projekt ma charakter edukacyjny i demonstarcyjny i nie jest certyfikowanym urządzeniem medycznym. 
-Każde użycie systemu odbywa się na własną odpowiedzialność użytkownika.
-Każde użycie systemu odbywa się na własną odpowiedzialność użytkownika.
-Projekt nie jest wyrobem medycznym i nie może być stosowany do diagnostyki klinicznej.
-Służy wyłącznie do celów edukacyjnych, badawczych i 
+Każde użycie systemu odbywa się na własną odpowiedzialność użytkownika. 
