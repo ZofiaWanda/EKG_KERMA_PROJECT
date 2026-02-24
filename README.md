@@ -17,6 +17,8 @@ Wymagane elementy sprzętowe:
 
 Zawartość repozytorium
 
+EKG_schmeat.png → schematyczny obarz modelu EKG
+
 EKG_program_na_Arduino_NANO.ino → program dla Arduino (akwizycja sygnału, wygładzanie, transmisja szeregowa)
 
 EKG_software.mlapp → aplikacja MATLAB do:
